@@ -21,8 +21,6 @@ public class Animal {
            desctiption = "This animal is mostly " + color + ". It has " + numberOfPaws + " paw and no fur.";
       }else if (hasFur == false && numberOfPaws > 1) {
            desctiption = "This animal is mostly " + color + ". It has " + numberOfPaws + " paws and no fur.";
-      }else if (hasFur == false && numberOfPaws == 2) {
-           desctiption = "This animal is mostly " + color + ". It has " + numberOfPaws + " paws and no fur. Moreover, it has 2 wings and can fly.";
       }
 
         return desctiption;
